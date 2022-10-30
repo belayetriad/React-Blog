@@ -1,10 +1,10 @@
-import PageHeaderCompoent from "../shared/pageHeader/PageHeader.component";
+import PageHeaderComponent from "../shared/pageHeader/PageHeader.component";
 
 export default function ContactComponent(){
     return(
         <>
             {/* <!-- Page Header--> */}
-            <PageHeaderCompoent title={'Contact Us'} subTitle={'This is our Contact Us page'} bgImage={'/assets/img/contact-bg.jpg'} />
+            <PageHeaderComponent title={'Contact Us'} subTitle={'This is our Contact Us page'} bgImage={'/assets/img/contact-bg.jpg'} />
             {/* <!-- Main Content--> */}
             <main className="mb-4">
                 <div className="container px-4 px-lg-5">

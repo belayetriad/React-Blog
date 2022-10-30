@@ -20,7 +20,7 @@ export default function NavMenuComponent(){
                                 <Link to={'/about'} className="nav-link px-lg-3 py-3 py-lg-4">About</Link> 
                             </li>
                             <li className="nav-item"> 
-                                <Link to={'/sample-post'} className="nav-link px-lg-3 py-3 py-lg-4">Sample Post</Link>
+                                <Link to={'/post'} className="nav-link px-lg-3 py-3 py-lg-4">Sample Post</Link>
                             </li>
                             <li className="nav-item"> 
                                 <Link to={'/contact'} className="nav-link px-lg-3 py-3 py-lg-4">Contact</Link>

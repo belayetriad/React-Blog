@@ -1,10 +1,10 @@
-import PageHeaderCompoent from "../shared/pageHeader/PageHeader.component";
+import PageHeaderComponent from "../shared/pageHeader/PageHeader.component";
 
 export default function AboutComponent(){
     return(
         <>
         {/* <!-- Page Header--> */}
-        <PageHeaderCompoent title={'About Us'} subTitle={'This is our Sub Title'} bgImage={'/assets/img/about-bg.jpg'} />
+        <PageHeaderComponent title={'About Us'} subTitle={'This is our Sub Title'} bgImage={'/assets/img/about-bg.jpg'} />
 
         {/* <!-- Main Content--> */}
         <main className="mb-4">
