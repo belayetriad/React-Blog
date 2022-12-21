@@ -1,0 +1,7 @@
+#mainNav {
+  border-bottom: 1px solid black;
+  background: black;
+}
+ul.navbar-nav {
+  align-items: center;
+}

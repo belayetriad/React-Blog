@@ -19,6 +19,8 @@ export default function HomeComponent() {
     .finally(function () {
         // always executed
     });
+
+   
      
     return(
         <>
