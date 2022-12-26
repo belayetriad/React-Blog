@@ -1,13 +1,18 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import './PageHeader.style.css';
 
 export default function PageHeaderComponent({
     title, 
     subTitle, 
     bgImage, 
     type= 'page', 
-    postInfo = {postAuthor: '', postAuthorUrl: '#', postDate:  ''}
+    postInfo = {postAuthor: '', postAuthorUrl: '#', postDate:  ''},
+    component = <></>
 }){
-    console.log() 
+    const nowMoment = new Date();
+
+     
+
     return (
         <>
             {/* <!-- Page Header--> */}
@@ -32,8 +37,15 @@ export default function PageHeaderComponent({
                                         {' '}on {postInfo.postDate}
                                     </span>
                                 } 
-                                
+                                <div className="welcome-message">
+                       
+                                </div>
+                                <div className="time-now">{
+                                `${nowMoment.getHours()}-${nowMoment.getMinutes()}-${nowMoment.getSeconds()} 
+                                ${nowMoment.getDate()}-${nowMoment.getMonth()+1}-${nowMoment.getFullYear()}`
+                                }</div>
                             </div>
+                            {component}
                         </div>
                     </div>
                 </div>
